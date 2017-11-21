@@ -31,7 +31,7 @@ For example, IMAP authentication:
 	console.log('Got response: ', await streamExpect(sock, x => x.includes('OK')))
 	sock.write('a login user@example.com hunter2\r\n')
 	console.log('Got response: ', await streamExpect(sock, /^a\s*OK/, '1s'))
-  // exception if not OK
+	// exception if not OK
 	sock.end()
 })()
 ```
