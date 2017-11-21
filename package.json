@@ -1,0 +1,30 @@
+{
+  "name": "stream-protocol-expect",
+  "description": "",
+  "version": "0.0.0",
+  "author": "Greg V <greg@unrelenting.technology>",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myfreeweb/stream-protocol-expect"
+  },
+  "bugs": {
+    "url": "https://github.com/myfreeweb/stream-protocol-expect/issues"
+  },
+  "keywords": [
+    "stream",
+    "protocol",
+    "expect"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "dependencies": {
+    "ms": "^2.0.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  }
+}
