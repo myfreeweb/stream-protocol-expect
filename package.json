@@ -1,7 +1,7 @@
 {
   "name": "stream-protocol-expect",
-  "description": "",
-  "version": "0.0.0",
+  "description": "A function for expecting/awaiting matching data from a readable stream (for line-by-line request-response protocols)",
+  "version": "1.0.0",
   "author": "Greg V <greg@unrelenting.technology>",
   "license": "Unlicense",
   "repository": {
